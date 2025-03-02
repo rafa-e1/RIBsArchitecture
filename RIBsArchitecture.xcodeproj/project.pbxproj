@@ -16,6 +16,7 @@
 		05096A3B2D72C01400563E91 /* RIBsArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05096A392D72C01400563E91 /* RIBsArchitectureTests.swift */; };
 		05096A3F2D72C01700563E91 /* RIBsArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05096A3C2D72C01700563E91 /* RIBsArchitectureUITests.swift */; };
 		05096A402D72C01700563E91 /* RIBsArchitectureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05096A3D2D72C01700563E91 /* RIBsArchitectureUITestsLaunchTests.swift */; };
+		05096A432D74242D00563E91 /* ModernRIBs in Frameworks */ = {isa = PBXBuildFile; productRef = 05096A422D74242D00563E91 /* ModernRIBs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05096A432D74242D00563E91 /* ModernRIBs in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +146,7 @@
 			);
 			name = RIBsArchitecture;
 			packageProductDependencies = (
+				05096A422D74242D00563E91 /* ModernRIBs */,
 			);
 			productName = RIBsArchitecture;
 			productReference = 050969C82D71CFEB00563E91 /* RIBsArchitecture.app */;
@@ -221,6 +224,9 @@
 			);
 			mainGroup = 050969BF2D71CFEB00563E91;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				05096A412D74242D00563E91 /* XCRemoteSwiftPackageReference "ModernRIBs" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 050969C92D71CFEB00563E91 /* Products */;
 			projectDirPath = "";
@@ -610,6 +616,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		05096A412D74242D00563E91 /* XCRemoteSwiftPackageReference "ModernRIBs" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DevYeom/ModernRIBs.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		05096A422D74242D00563E91 /* ModernRIBs */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05096A412D74242D00563E91 /* XCRemoteSwiftPackageReference "ModernRIBs" */;
+			productName = ModernRIBs;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 050969C02D71CFEB00563E91 /* Project object */;
 }
