@@ -22,6 +22,10 @@
 		05E5EBD02D8EC3AD00F0CB97 /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5EBCF2D8EC3AD00F0CB97 /* UIView+Utils.swift */; };
 		05E5EBD22D8EC3D200F0CB97 /* PushModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5EBD12D8EC3D200F0CB97 /* PushModalPresentationController.swift */; };
 		05E5EBD42D8EC60B00F0CB97 /* RIBs+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5EBD32D8EC60B00F0CB97 /* RIBs+Utils.swift */; };
+		05E5EBD62D8FFD3500F0CB97 /* ProfileHomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5EBD52D8FFD3500F0CB97 /* ProfileHomeBuilder.swift */; };
+		05E5EBD82D8FFE5500F0CB97 /* ProfileHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5EBD72D8FFE5500F0CB97 /* ProfileHomeInteractor.swift */; };
+		05E5EBDA2D8FFEF200F0CB97 /* ProfileHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5EBD92D8FFEF200F0CB97 /* ProfileHomeViewController.swift */; };
+		05E5EBDC2D8FFF1700F0CB97 /* ProfileHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5EBDB2D8FFF1700F0CB97 /* ProfileHomeRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +64,10 @@
 		05E5EBCF2D8EC3AD00F0CB97 /* UIView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
 		05E5EBD12D8EC3D200F0CB97 /* PushModalPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushModalPresentationController.swift; sourceTree = "<group>"; };
 		05E5EBD32D8EC60B00F0CB97 /* RIBs+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RIBs+Utils.swift"; sourceTree = "<group>"; };
+		05E5EBD52D8FFD3500F0CB97 /* ProfileHomeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHomeBuilder.swift; sourceTree = "<group>"; };
+		05E5EBD72D8FFE5500F0CB97 /* ProfileHomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHomeInteractor.swift; sourceTree = "<group>"; };
+		05E5EBD92D8FFEF200F0CB97 /* ProfileHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHomeViewController.swift; sourceTree = "<group>"; };
+		05E5EBDB2D8FFF1700F0CB97 /* ProfileHomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHomeRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +176,10 @@
 		05E5EBBB2D8EC00300F0CB97 /* ProfileHome */ = {
 			isa = PBXGroup;
 			children = (
+				05E5EBDB2D8FFF1700F0CB97 /* ProfileHomeRouter.swift */,
+				05E5EBD92D8FFEF200F0CB97 /* ProfileHomeViewController.swift */,
+				05E5EBD52D8FFD3500F0CB97 /* ProfileHomeBuilder.swift */,
+				05E5EBD72D8FFE5500F0CB97 /* ProfileHomeInteractor.swift */,
 			);
 			path = ProfileHome;
 			sourceTree = "<group>";
@@ -357,8 +369,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05E5EBD62D8FFD3500F0CB97 /* ProfileHomeBuilder.swift in Sources */,
 				05096A322D72C01000563E91 /* AppDelegate.swift in Sources */,
+				05E5EBDC2D8FFF1700F0CB97 /* ProfileHomeRouter.swift in Sources */,
 				05E5EBCC2D8EC35500F0CB97 /* UIColor+Super.swift in Sources */,
+				05E5EBD82D8FFE5500F0CB97 /* ProfileHomeInteractor.swift in Sources */,
 				05E5EBD02D8EC3AD00F0CB97 /* UIView+Utils.swift in Sources */,
 				05E5EBC62D8EC05E00F0CB97 /* Array+Utils.swift in Sources */,
 				05E5EBCE2D8EC38B00F0CB97 /* UIColor+Utils.swift in Sources */,
@@ -366,6 +381,7 @@
 				05E5EBD42D8EC60B00F0CB97 /* RIBs+Utils.swift in Sources */,
 				05E5EBC82D8EC0DC00F0CB97 /* UIImage+Utils.swift in Sources */,
 				05E5EBCA2D8EC1C200F0CB97 /* UITableView+Utils.swift in Sources */,
+				05E5EBDA2D8FFEF200F0CB97 /* ProfileHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
