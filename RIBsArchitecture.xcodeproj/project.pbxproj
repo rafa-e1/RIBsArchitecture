@@ -19,6 +19,7 @@
 		059C2C322D9BF2D7004D9D4B /* FinanceHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C2C312D9BF2D7004D9D4B /* FinanceHomeViewController.swift */; };
 		059C2C342D9BF309004D9D4B /* FinanceHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C2C332D9BF309004D9D4B /* FinanceHomeRouter.swift */; };
 		059C2C362D9D1804004D9D4B /* RideTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C2C352D9D1804004D9D4B /* RideTypeView.swift */; };
+		059C2C382D9D1882004D9D4B /* SuperPayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C2C372D9D1882004D9D4B /* SuperPayView.swift */; };
 		05E5EBC62D8EC05E00F0CB97 /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5EBC52D8EC05E00F0CB97 /* Array+Utils.swift */; };
 		05E5EBC82D8EC0DC00F0CB97 /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5EBC72D8EC0DC00F0CB97 /* UIImage+Utils.swift */; };
 		05E5EBCA2D8EC1C200F0CB97 /* UITableView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5EBC92D8EC1C200F0CB97 /* UITableView+Utils.swift */; };
@@ -66,6 +67,7 @@
 		059C2C312D9BF2D7004D9D4B /* FinanceHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceHomeViewController.swift; sourceTree = "<group>"; };
 		059C2C332D9BF309004D9D4B /* FinanceHomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceHomeRouter.swift; sourceTree = "<group>"; };
 		059C2C352D9D1804004D9D4B /* RideTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideTypeView.swift; sourceTree = "<group>"; };
+		059C2C372D9D1882004D9D4B /* SuperPayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperPayView.swift; sourceTree = "<group>"; };
 		05E5EBC52D8EC05E00F0CB97 /* Array+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Utils.swift"; sourceTree = "<group>"; };
 		05E5EBC72D8EC0DC00F0CB97 /* UIImage+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Utils.swift"; sourceTree = "<group>"; };
 		05E5EBC92D8EC1C200F0CB97 /* UITableView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Utils.swift"; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				059C2C352D9D1804004D9D4B /* RideTypeView.swift */,
+				059C2C372D9D1882004D9D4B /* SuperPayView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				05E5EBC82D8EC0DC00F0CB97 /* UIImage+Utils.swift in Sources */,
 				05E5EBCA2D8EC1C200F0CB97 /* UITableView+Utils.swift in Sources */,
 				05E5EBDA2D8FFEF200F0CB97 /* ProfileHomeViewController.swift in Sources */,
+				059C2C382D9D1882004D9D4B /* SuperPayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
