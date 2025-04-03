@@ -14,6 +14,7 @@
 		05096A3F2D72C01700563E91 /* RIBsArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05096A3C2D72C01700563E91 /* RIBsArchitectureUITests.swift */; };
 		05096A402D72C01700563E91 /* RIBsArchitectureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05096A3D2D72C01700563E91 /* RIBsArchitectureUITestsLaunchTests.swift */; };
 		05096A432D74242D00563E91 /* ModernRIBs in Frameworks */ = {isa = PBXBuildFile; productRef = 05096A422D74242D00563E91 /* ModernRIBs */; };
+		056E75A02D9E80210018D4C2 /* HomeWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E759F2D9E80210018D4C2 /* HomeWidgetView.swift */; };
 		056E75A22D9E804D0018D4C2 /* HomeWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E75A12D9E804D0018D4C2 /* HomeWidgetModel.swift */; };
 		059C2C2E2D9BF24F004D9D4B /* FinanceHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C2C2D2D9BF24F004D9D4B /* FinanceHomeInteractor.swift */; };
 		059C2C302D9BF2AE004D9D4B /* FinanceHomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C2C2F2D9BF2AE004D9D4B /* FinanceHomeBuilder.swift */; };
@@ -67,6 +68,7 @@
 		05096A392D72C01400563E91 /* RIBsArchitectureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIBsArchitectureTests.swift; sourceTree = "<group>"; };
 		05096A3C2D72C01700563E91 /* RIBsArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIBsArchitectureUITests.swift; sourceTree = "<group>"; };
 		05096A3D2D72C01700563E91 /* RIBsArchitectureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIBsArchitectureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		056E759F2D9E80210018D4C2 /* HomeWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWidgetView.swift; sourceTree = "<group>"; };
 		056E75A12D9E804D0018D4C2 /* HomeWidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWidgetModel.swift; sourceTree = "<group>"; };
 		059C2C2D2D9BF24F004D9D4B /* FinanceHomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceHomeInteractor.swift; sourceTree = "<group>"; };
 		059C2C2F2D9BF2AE004D9D4B /* FinanceHomeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceHomeBuilder.swift; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 		05E5EBC32D8EC04100F0CB97 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				056E759F2D9E80210018D4C2 /* HomeWidgetView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -409,6 +412,7 @@
 				059C2C3C2D9D193D004D9D4B /* TransportHomeRouter.swift in Sources */,
 				05E5EBDC2D8FFF1700F0CB97 /* ProfileHomeRouter.swift in Sources */,
 				059C2C342D9BF309004D9D4B /* FinanceHomeRouter.swift in Sources */,
+				056E75A02D9E80210018D4C2 /* HomeWidgetView.swift in Sources */,
 				05E5EBCC2D8EC35500F0CB97 /* UIColor+Super.swift in Sources */,
 				059C2C362D9D1804004D9D4B /* RideTypeView.swift in Sources */,
 				05E5EBD82D8FFE5500F0CB97 /* ProfileHomeInteractor.swift in Sources */,
