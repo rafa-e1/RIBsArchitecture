@@ -20,6 +20,10 @@
 		056E78BE2D9FEFC10018D4C2 /* AppHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E78BD2D9FEFC10018D4C2 /* AppHomeInteractor.swift */; };
 		056E78C02D9FEFDA0018D4C2 /* AppHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E78BF2D9FEFDA0018D4C2 /* AppHomeRouter.swift */; };
 		056E78C22D9FEFFE0018D4C2 /* AppHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E78C12D9FEFFE0018D4C2 /* AppHomeViewController.swift */; };
+		056E78C42DA14A940018D4C2 /* AppRootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E78C32DA14A940018D4C2 /* AppRootRouter.swift */; };
+		056E78C62DA14BFA0018D4C2 /* AppRootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E78C52DA14BFA0018D4C2 /* AppRootBuilder.swift */; };
+		056E78C82DA14C130018D4C2 /* AppRootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E78C72DA14C130018D4C2 /* AppRootInteractor.swift */; };
+		056E78CA2DA14C310018D4C2 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E78C92DA14C310018D4C2 /* RootTabBarController.swift */; };
 		059C2C2E2D9BF24F004D9D4B /* FinanceHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C2C2D2D9BF24F004D9D4B /* FinanceHomeInteractor.swift */; };
 		059C2C302D9BF2AE004D9D4B /* FinanceHomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C2C2F2D9BF2AE004D9D4B /* FinanceHomeBuilder.swift */; };
 		059C2C322D9BF2D7004D9D4B /* FinanceHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C2C312D9BF2D7004D9D4B /* FinanceHomeViewController.swift */; };
@@ -78,6 +82,10 @@
 		056E78BD2D9FEFC10018D4C2 /* AppHomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHomeInteractor.swift; sourceTree = "<group>"; };
 		056E78BF2D9FEFDA0018D4C2 /* AppHomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHomeRouter.swift; sourceTree = "<group>"; };
 		056E78C12D9FEFFE0018D4C2 /* AppHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHomeViewController.swift; sourceTree = "<group>"; };
+		056E78C32DA14A940018D4C2 /* AppRootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootRouter.swift; sourceTree = "<group>"; };
+		056E78C52DA14BFA0018D4C2 /* AppRootBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootBuilder.swift; sourceTree = "<group>"; };
+		056E78C72DA14C130018D4C2 /* AppRootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootInteractor.swift; sourceTree = "<group>"; };
+		056E78C92DA14C310018D4C2 /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
 		059C2C2D2D9BF24F004D9D4B /* FinanceHomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceHomeInteractor.swift; sourceTree = "<group>"; };
 		059C2C2F2D9BF2AE004D9D4B /* FinanceHomeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceHomeBuilder.swift; sourceTree = "<group>"; };
 		059C2C312D9BF2D7004D9D4B /* FinanceHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceHomeViewController.swift; sourceTree = "<group>"; };
@@ -272,6 +280,10 @@
 		05E5EBC42D8EC04800F0CB97 /* AppRoot */ = {
 			isa = PBXGroup;
 			children = (
+				056E78C32DA14A940018D4C2 /* AppRootRouter.swift */,
+				056E78C52DA14BFA0018D4C2 /* AppRootBuilder.swift */,
+				056E78C72DA14C130018D4C2 /* AppRootInteractor.swift */,
+				056E78C92DA14C310018D4C2 /* RootTabBarController.swift */,
 			);
 			path = AppRoot;
 			sourceTree = "<group>";
@@ -427,6 +439,7 @@
 				059C2C342D9BF309004D9D4B /* FinanceHomeRouter.swift in Sources */,
 				056E75A02D9E80210018D4C2 /* HomeWidgetView.swift in Sources */,
 				05E5EBCC2D8EC35500F0CB97 /* UIColor+Super.swift in Sources */,
+				056E78CA2DA14C310018D4C2 /* RootTabBarController.swift in Sources */,
 				059C2C362D9D1804004D9D4B /* RideTypeView.swift in Sources */,
 				056E78BE2D9FEFC10018D4C2 /* AppHomeInteractor.swift in Sources */,
 				05E5EBD82D8FFE5500F0CB97 /* ProfileHomeInteractor.swift in Sources */,
@@ -435,13 +448,16 @@
 				05E5EBD02D8EC3AD00F0CB97 /* UIView+Utils.swift in Sources */,
 				059C2C2E2D9BF24F004D9D4B /* FinanceHomeInteractor.swift in Sources */,
 				059C2C3A2D9D18D4004D9D4B /* TransportHomeViewController.swift in Sources */,
+				056E78C82DA14C130018D4C2 /* AppRootInteractor.swift in Sources */,
 				05E5EBC62D8EC05E00F0CB97 /* Array+Utils.swift in Sources */,
 				056E78C22D9FEFFE0018D4C2 /* AppHomeViewController.swift in Sources */,
+				056E78C42DA14A940018D4C2 /* AppRootRouter.swift in Sources */,
 				05E5EBCE2D8EC38B00F0CB97 /* UIColor+Utils.swift in Sources */,
 				05E5EBD22D8EC3D200F0CB97 /* PushModalPresentationController.swift in Sources */,
 				056E78C02D9FEFDA0018D4C2 /* AppHomeRouter.swift in Sources */,
 				05E5EBD42D8EC60B00F0CB97 /* RIBs+Utils.swift in Sources */,
 				05E5EBC82D8EC0DC00F0CB97 /* UIImage+Utils.swift in Sources */,
+				056E78C62DA14BFA0018D4C2 /* AppRootBuilder.swift in Sources */,
 				05E5EBCA2D8EC1C200F0CB97 /* UITableView+Utils.swift in Sources */,
 				05E5EBDA2D8FFEF200F0CB97 /* ProfileHomeViewController.swift in Sources */,
 				059C2C3E2D9D1953004D9D4B /* TransportHomeBuilder.swift in Sources */,
