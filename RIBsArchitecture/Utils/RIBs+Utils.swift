@@ -9,7 +9,7 @@ import UIKit
 
 import ModernRIBs
 
-final class NavigationController: ViewControllable {
+final class NavigationControllerable: ViewControllable {
 
     let navigationController: UINavigationController
     var uiviewController: UIViewController { self.navigationController }
