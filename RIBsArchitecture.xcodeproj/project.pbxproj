@@ -24,6 +24,7 @@
 		056E78C62DA14BFA0018D4C2 /* AppRootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E78C52DA14BFA0018D4C2 /* AppRootBuilder.swift */; };
 		056E78C82DA14C130018D4C2 /* AppRootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E78C72DA14C130018D4C2 /* AppRootInteractor.swift */; };
 		056E78CA2DA14C310018D4C2 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E78C92DA14C310018D4C2 /* RootTabBarController.swift */; };
+		056E78D02DA2ACC90018D4C2 /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E78CF2DA2ACC90018D4C2 /* AppComponent.swift */; };
 		059C2C2E2D9BF24F004D9D4B /* FinanceHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C2C2D2D9BF24F004D9D4B /* FinanceHomeInteractor.swift */; };
 		059C2C302D9BF2AE004D9D4B /* FinanceHomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C2C2F2D9BF2AE004D9D4B /* FinanceHomeBuilder.swift */; };
 		059C2C322D9BF2D7004D9D4B /* FinanceHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C2C312D9BF2D7004D9D4B /* FinanceHomeViewController.swift */; };
@@ -86,6 +87,7 @@
 		056E78C52DA14BFA0018D4C2 /* AppRootBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootBuilder.swift; sourceTree = "<group>"; };
 		056E78C72DA14C130018D4C2 /* AppRootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootInteractor.swift; sourceTree = "<group>"; };
 		056E78C92DA14C310018D4C2 /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		056E78CF2DA2ACC90018D4C2 /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
 		059C2C2D2D9BF24F004D9D4B /* FinanceHomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceHomeInteractor.swift; sourceTree = "<group>"; };
 		059C2C2F2D9BF2AE004D9D4B /* FinanceHomeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceHomeBuilder.swift; sourceTree = "<group>"; };
 		059C2C312D9BF2D7004D9D4B /* FinanceHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceHomeViewController.swift; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				05096A282D72C01000563E91 /* AppDelegate.swift */,
+				056E78CF2DA2ACC90018D4C2 /* AppComponent.swift */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				05E5EBD62D8FFD3500F0CB97 /* ProfileHomeBuilder.swift in Sources */,
 				059C2C402D9D1971004D9D4B /* TransportHomeInteractor.swift in Sources */,
 				056E78BC2D9FEFA80018D4C2 /* AppHomeBuilder.swift in Sources */,
+				056E78D02DA2ACC90018D4C2 /* AppComponent.swift in Sources */,
 				05096A322D72C01000563E91 /* AppDelegate.swift in Sources */,
 				059C2C302D9BF2AE004D9D4B /* FinanceHomeBuilder.swift in Sources */,
 				059C2C3C2D9D193D004D9D4B /* TransportHomeRouter.swift in Sources */,
