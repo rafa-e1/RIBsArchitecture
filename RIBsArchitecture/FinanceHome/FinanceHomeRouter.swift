@@ -21,14 +21,18 @@ protocol FinanceHomeViewControllable: ViewControllable {
 final class FinanceHomeRouter: ViewableRouter<FinanceHomeInteractable, FinanceHomeViewControllable>, FinanceHomeRouting {
 
     private let superPayDashboardBuildable: SuperPayDashboardBuildable
+    private let cardOnFileDashboardBuildable: CardOnFileDashboardBuildable
     private var superPayRouting: Routing?
+    private var cardOnFileRouting: Routing?
 
     init(
         interactor: FinanceHomeInteractable,
         viewController: FinanceHomeViewControllable,
-        superPayDashboardBuildable: SuperPayDashboardBuildable
+        superPayDashboardBuildable: SuperPayDashboardBuildable,
+        cardOnFileDashboardBuildable: CardOnFileDashboardBuildable
     ) {
         self.superPayDashboardBuildable = superPayDashboardBuildable
+        self.cardOnFileDashboardBuildable = cardOnFileDashboardBuildable
         super.init(interactor: interactor, viewController: viewController)
 
         interactor.router = self
