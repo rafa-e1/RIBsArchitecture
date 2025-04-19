@@ -1,6 +1,15 @@
 {
-  "originHash" : "694cf932c37a0f60fd4558936f2dcf11054d8a3813919d12c2039b1b290dc925",
+  "originHash" : "01e0bcdbf06bce12160f987c94e295459aaae3d894652b186e823f669e495912",
   "pins" : [
+    {
+      "identity" : "combineext",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CombineCommunity/CombineExt.git",
+      "state" : {
+        "revision" : "d7b896fa9ca8b47fa7bcde6b43ef9b70bf8c1f56",
+        "version" : "1.8.1"
+      }
+    },
     {
       "identity" : "modernribs",
       "kind" : "remoteSourceControl",
