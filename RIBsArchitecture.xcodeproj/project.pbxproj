@@ -16,6 +16,7 @@
 		05096A432D74242D00563E91 /* ModernRIBs in Frameworks */ = {isa = PBXBuildFile; productRef = 05096A422D74242D00563E91 /* ModernRIBs */; };
 		051DD4AE2DB507CD00630B47 /* AddPaymentMethodButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051DD4AD2DB507CD00630B47 /* AddPaymentMethodButton.swift */; };
 		051DD4B22DB5F1D800630B47 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051DD4B12DB5F1D800630B47 /* PaymentMethod.swift */; };
+		051DD4B72DB5F42400630B47 /* PaymentMethodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051DD4B62DB5F42400630B47 /* PaymentMethodViewModel.swift */; };
 		056E75A02D9E80210018D4C2 /* HomeWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E759F2D9E80210018D4C2 /* HomeWidgetView.swift */; };
 		056E75A22D9E804D0018D4C2 /* HomeWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E75A12D9E804D0018D4C2 /* HomeWidgetModel.swift */; };
 		056E78BC2D9FEFA80018D4C2 /* AppHomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E78BB2D9FEFA80018D4C2 /* AppHomeBuilder.swift */; };
@@ -92,6 +93,7 @@
 		05096A3D2D72C01700563E91 /* RIBsArchitectureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIBsArchitectureUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		051DD4AD2DB507CD00630B47 /* AddPaymentMethodButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentMethodButton.swift; sourceTree = "<group>"; };
 		051DD4B12DB5F1D800630B47 /* PaymentMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
+		051DD4B62DB5F42400630B47 /* PaymentMethodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodViewModel.swift; sourceTree = "<group>"; };
 		056E759F2D9E80210018D4C2 /* HomeWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWidgetView.swift; sourceTree = "<group>"; };
 		056E75A12D9E804D0018D4C2 /* HomeWidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWidgetModel.swift; sourceTree = "<group>"; };
 		056E78BB2D9FEFA80018D4C2 /* AppHomeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHomeBuilder.swift; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 				051DD4AC2DB507B600630B47 /* Views */,
 				058805272DB3C81C008E5892 /* CardOnFileDashboardBuilder.swift */,
 				058805282DB3C81C008E5892 /* CardOnFileDashboardInteractor.swift */,
+				051DD4B62DB5F42400630B47 /* PaymentMethodViewModel.swift */,
 				058805292DB3C81C008E5892 /* CardOnFileDashboardRouter.swift */,
 				0588052A2DB3C81C008E5892 /* CardOnFileDashboardViewController.swift */,
 				051DD4B12DB5F1D800630B47 /* PaymentMethod.swift */,
@@ -534,6 +537,7 @@
 				056E78C22D9FEFFE0018D4C2 /* AppHomeViewController.swift in Sources */,
 				056E78C42DA14A940018D4C2 /* AppRootRouter.swift in Sources */,
 				05E5EBCE2D8EC38B00F0CB97 /* UIColor+Utils.swift in Sources */,
+				051DD4B72DB5F42400630B47 /* PaymentMethodViewModel.swift in Sources */,
 				05E5EBD22D8EC3D200F0CB97 /* PushModalPresentationController.swift in Sources */,
 				056E78C02D9FEFDA0018D4C2 /* AppHomeRouter.swift in Sources */,
 				05E5EBD42D8EC60B00F0CB97 /* RIBs+Utils.swift in Sources */,
