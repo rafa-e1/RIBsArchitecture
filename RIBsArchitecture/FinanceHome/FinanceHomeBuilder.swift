@@ -14,11 +14,18 @@ protocol FinanceHomeDependency: Dependency {
 }
 
 final class FinanceHomeComponent: Component<FinanceHomeDependency>, SuperPayDashboardDependency, CardOnFileDashboardDependency {
-
+    
+    let cardOnFileRepository: CardOnFileRepository
     var balance: ReadOnlyCurrentValuePublisher<Double> { balancePublisher }
+
     private let balancePublisher: CurrentValuePublisher<Double>
 
-    init(dependency: FinanceHomeDependency, balance: CurrentValuePublisher<Double>) {
+    init(
+        dependency: FinanceHomeDependency,
+        cardOnFileRepository: CardOnFileRepository,
+        balance: CurrentValuePublisher<Double>
+    ) {
+        self.cardOnFileRepository = cardOnFileRepository
         self.balancePublisher = balance
         super.init(dependency: dependency)
     }
@@ -40,7 +47,7 @@ final class FinanceHomeBuilder: Builder<FinanceHomeDependency>, FinanceHomeBuild
 
     func build(withListener listener: FinanceHomeListener) -> FinanceHomeRouting {
         let balancePublisher = CurrentValuePublisher<Double>(1000000000000)
-        let component = FinanceHomeComponent(dependency: dependency, balance: balancePublisher)
+        let component = FinanceHomeComponent(dependency: dependency, cardOnFileRepository: CardOnFileRepositoryImp(), balance: balancePublisher)
         let viewController = FinanceHomeViewController()
         let interactor = FinanceHomeInteractor(presenter: viewController)
         interactor.listener = listener
